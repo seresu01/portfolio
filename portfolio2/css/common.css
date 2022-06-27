@@ -133,7 +133,7 @@ span {
 
 .menu {
   height: 660px;
-  background-color: rgb(196, 196, 196);
+  background-color: rgb(255, 255, 255);
   border-radius: 15px;
   width: 20%;
   text-align: center;
@@ -145,6 +145,7 @@ span {
   border-radius: 30%;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
+  width: 100%;
 }
 
 .menu_name {
@@ -175,6 +176,42 @@ span {
   height: 1200px;
 }
 
+.news {
+  height: 850px;
+  background: linear-gradient(to top, #888888, #3d3d3d);
+  width: 100%;
+}
+
+.news_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  height: 20rem;
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+  color: black;
+  font-size: 1.5rem;
+}
+
+tr {
+  border: black solid 1px;
+}
+
+th {
+  width: 30%;
+  padding-top: 0.8rem;
+}
+
+.news_button {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
 .contact {
   height: 400px;
   display: flex;
@@ -184,8 +221,8 @@ span {
 }
 
 .button_submit {
-  padding: 50px 120px;
-  font-size: 2rem;
+  padding: 20px 100px;
+  font-size: 1.3rem;
   border-radius: 80px;
   background-color: #3d3d3d;
   color: aliceblue;
@@ -201,16 +238,10 @@ footer {
   text-align: center;
 }
 
-
-
 footer img {
   height: 50px;
   padding-top: 40px;
 }
-
-
-
-
 
 
 
