@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+/* ここからヘッダー */
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.nav_wrapper {
+  width: 100%;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 20%);
+}
+
+.nav_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_item {
+  font-size: 1.2rem;
+  padding: 0 3%;
+}
+
+.nav_link {
+  display: block;
+  padding: 15% 0;
+  color: rgb(255, 255, 255);
+}
+
+.nav_link:hover {
+  color: #75a9ff;
+}
+
+/* ここからメイン */
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/23530714_m.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top_title {
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  letter-spacing: 5px;
+}
+
+.top_subtitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  letter-spacing: 5px;
+}
+
+#about {
+  background: linear-gradient(to left, #ffffff, rgb(216, 230, 255));
+}
+
+.section {
+  padding: 10% 0;
+}
+
+.section:nth-of-type(even) {
+  background-color: #f7f7f7;
+}
+
+.inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.font1 {
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-bottom: 5%;
+  text-shadow: rgba(0, 0, 0, 0.5) 3px 3px 4px;
+}
+
+.font2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2.5%;
+}
+
+.font3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.font4 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.about_img {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 50px 0 #d9d9d9;
+}
+
+#skill {
+  background: linear-gradient(to left, #ffffff, rgb(227, 255, 216));
+}
+
+.skill_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.skill_img {
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.skill_img img {
+  width: 5rem;
+}
+
+.skill_ttl {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#works {
+  background: linear-gradient(to left, #ffffff, rgb(211, 213, 216));
+}
+
+.work_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.work_item {
+  width: 30%;
+}
+
+.work_item a img {
+  width: 100%;
+}
+
+.work_ttl p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 2.5%;
+}
+
+#contact {
+  background-image: url(../img/23558618_m.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_item {
+  list-style: none;
+}
+
+.contact_img {
+  width: 5rem;
+}
+
+.contact_mail {
+  margin-top: 2.5%;
+  text-align: center;
+}
+
+/* ここからフッター */
+.bottom {
+  background-color: #333;
+}
+
+.bottom .inner {
+  padding: 2.5%;
+}
+
+.copyright {
+  font-size: 1rem;
+  text-align: center;
+  color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
